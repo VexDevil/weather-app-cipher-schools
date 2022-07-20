@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 *{
-    box-sizing: border-box;
+    box-sizing:content-box;
     margin: 0;
     padding: 0;
 }
 body{
-   font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
     
 }
 p{
@@ -48,7 +48,6 @@ h1{
 ::placeholder {
     color: black;
 }
-
 .container {
     max-width: 600px;
     height: 600px;
@@ -70,12 +69,12 @@ h1{
     position: relative;
     right: -20%;
     transform-origin: 0 0;
-
+    
 }
 
 .app .bottom {
     display:inline-flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     text-align: center;
     width: 100%;
     margin: 5rem auto;
