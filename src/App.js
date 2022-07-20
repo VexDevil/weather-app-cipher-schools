@@ -44,6 +44,7 @@ function App() {
  <div className="feels">
    <p>Feels Like</p>
  {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°F</p>  : null }
+ </div>
  
   <div className="sunrise">
    {data.timezone ? <p className="bold">{data.timezone.Sunrise}</p>  : null }
